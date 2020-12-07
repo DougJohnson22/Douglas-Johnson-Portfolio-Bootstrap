@@ -6,6 +6,11 @@ h1 {
     font-family: 'Source Code Pro', monospace;
 }
 
+img {
+    width: 200px;
+    height: 200px;
+}
+
 /* Line Break */
 hr.solid {
     border-top: 1px solid #2694B8;
@@ -30,6 +35,25 @@ hr.solid {
     background-size: cover;
 }
 
+/* Content Box */
+.box{
+    background-color: white;
+    margin: 10% 0px;
+    padding: 3% 3%;
+}
+
+/* About Me Logo */
+.logo {
+height: 50%;
+width: 40%;
+margin: 0px 3%;
+}
+
+/* Portfolio Image Formatting */
+.portfolio {
+    margin: 2% 0 0 0;
+}
+
 /* Foot Formatting */
 .footer {
     position: sticky;
@@ -40,23 +64,4 @@ hr.solid {
     justify-content: center;
     align-items: center;
     color: #2694B8;
-}
-
-/* About Me Top */
-.box-top{
-    background-color: white;
-    margin: 10% 0px;
-    padding: 3% 3%;
-}
-
-/* About Me Bottom */
-.box-bottom {
-    background-color: white;
-}
-
-/* About Me Logo */
-.logo {
-height: 50%;
-width: 40%;
-margin: 0px 3%;
 }
