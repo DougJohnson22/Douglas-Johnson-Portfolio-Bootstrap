@@ -1,18 +1,36 @@
 body, html {
     height: 100%;}
 
-.name {
-    margin: auto 10px auto 10px;
-    background-color: #2694B8;
-    color: white;}
+h1 {
+    color: #2694B8;
+    font-family: 'Source Code Pro', monospace;
+}
 
+/* Line Break */
+hr.solid {
+    border-top: 1px solid #2694B8;
+}
+
+
+/* Nav Bar Name */
+.name {
+    margin: auto 10px;
+    padding: 0px auto;
+    background-color: #2694B8;
+    color: white;
+    font-family: 'Source Code Pro', monospace;
+}
+
+/* Background Image */
 .bg {
     background-image: url("https://i.postimg.cc/tJVWZ2hp/Adobe-Stock-186509520.jpg");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;}
+    background-size: cover;
+}
 
+/* Foot Formatting */
 .footer {
     position: sticky;
     bottom: 0;
@@ -21,5 +39,24 @@ body, html {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #2694B8;}
+    color: #2694B8;
+}
 
+/* About Me Top */
+.box-top{
+    background-color: white;
+    margin: 10% 0px;
+    padding: 3% 3%;
+}
+
+/* About Me Bottom */
+.box-bottom {
+    background-color: white;
+}
+
+/* About Me Logo */
+.logo {
+height: 50%;
+width: 40%;
+margin: 0px 3%;
+}
