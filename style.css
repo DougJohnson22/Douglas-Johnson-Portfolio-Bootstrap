@@ -1,5 +1,25 @@
+body, html {
+    height: 100%;}
+
 .name {
     margin: auto 10px auto 10px;
     background-color: #2694B8;
-    color: white;
-}
+    color: white;}
+
+.bg {
+    background-image: url("https://i.postimg.cc/tJVWZ2hp/Adobe-Stock-186509520.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;}
+
+.footer {
+    position: sticky;
+    bottom: 0;
+    height: 50px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2694B8;}
+
