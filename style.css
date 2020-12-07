@@ -65,3 +65,26 @@ margin: 0px 3%;
     align-items: center;
     color: #2694B8;
 }
+
+/* Social Media Icons */
+.fa {
+    padding: 5px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+  .fa-facebook {
+    background: lightgray;
+    color: blue;
+  }
+
+  .fa-instagram {
+    background: lightgray;
+    color: yellow;
+  }
