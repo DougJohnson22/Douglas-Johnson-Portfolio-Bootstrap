@@ -14,3 +14,5 @@ Thank you for visiting my site!
 
 -Doug Johnson
 
+[Published Site](https://dougjohnson22.github.io/Douglas-Johnson-Portfolio-Bootstrap/)
+[Github-Repo](https://github.com/DougJohnson22/Douglas-Johnson-Portfolio-Bootstrap)
