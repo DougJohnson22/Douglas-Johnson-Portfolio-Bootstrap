@@ -2,7 +2,7 @@ body, html {
     height: 100%;}
 
 h1 {
-    color: #2694B8;
+    color: #712A68;
     font-family: 'Source Code Pro', monospace;
 }
 
@@ -13,7 +13,7 @@ img {
 
 /* Line Break */
 hr.solid {
-    border-top: 1px solid #2694B8;
+    border-top: 1px solid #712A68;
 }
 
 
@@ -21,7 +21,7 @@ hr.solid {
 .name {
     margin: auto 10px;
     padding: 0px auto;
-    background-color: #2694B8;
+    background-color: #033A9F;
     color: white;
     font-family: 'Source Code Pro', monospace;
 }
@@ -82,10 +82,10 @@ margin: 0px 3%;
 
   .fa-facebook {
     background: lightgray;
-    color: blue;
+    color: #033A9F;
   }
 
   .fa-instagram {
     background: lightgray;
-    color: yellow;
+    color: #AE04D5;
   }
