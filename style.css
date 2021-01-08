@@ -2,13 +2,19 @@ body, html {
     height: 100%;}
 
 h1 {
-    color: #712A68;
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Libre Baskerville', serif;
+    display: block;
+    text-align: center;
 }
 
 img {
     width: 10vw;
     height: 10vh;
+}
+
+/* Hidden spacer */
+.hidden-spacer {
+    height: 56px
 }
 
 /* Line Break */
@@ -21,71 +27,93 @@ hr.solid {
 .name {
     margin: auto 10px;
     padding: 0px auto;
-    background-color: #033A9F;
-    color: white;
-    font-family: 'Source Code Pro', monospace;
-}
-
-/* Background Image */
-.bg {
-    background-image: url("https://i.postimg.cc/tJVWZ2hp/Adobe-Stock-186509520.jpg");
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-/* Content Box */
-.box{
-    background-color: white;
-    margin: 10% 0px;
-    padding: 3% 3%;
-    overflow:auto;
+    font-family: 'Libre Baskerville', serif;
 }
 
 /* About Me Logo */
 .logo {
 height: 50%;
 width: 40%;
-margin: 0px 3%;
+display: block;
+margin: 5vh auto;
 }
 
 /* Portfolio Image Formatting */
 .portfolio {
-    margin: 2% 0 0 0;
+    margin: 5vh 0 0 0;
+    text-align: center;
 }
 
-/* Foot Formatting */
+/* Social Icons */
+.socials {
+    display: block;
+    text-align: center;
+    height: 5vh;
+    width: 5vw;
+}
+
+/* Footer Formatting */
 .footer {
-    position: sticky;
+    position: relative;
     bottom: 0;
     height: 50px;
-    background-color: lightgray;
     display: flex;
-    justify-content: center;
     align-items: center;
-    color: #2694B8;
+    justify-content: space-around;
 }
 
-/* Social Media Icons */
-.fa {
-    padding: 5px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-  }
+/* Landing Banner Image */
+#landingBanner {
+    height:80vh;
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image:url('https://i.postimg.cc/tJn3VFky/Portfolio-Banner.png');
+}
 
-  .fa:hover {
-    opacity: 0.7;
-  }
+#contactBanner {
+    height:80vh;
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image:url('https://i.postimg.cc/Jn4Tn1n8/contact-Banner.jpg');
+}
 
-  .fa-facebook {
-    background: lightgray;
-    color: #033A9F;
-  }
+#portfolioBanner {
+    height:80vh;
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image:url('https://i.postimg.cc/HWtyzQB6/portfolio-Banner.jpg');
+}
 
-  .fa-instagram {
-    background: lightgray;
-    color: #AE04D5;
-  }
+#portfolioImg {
+    margin: 2vh auto;
+}
+
+@media only screen and (max-width: 600px) {
+
+    #portfolioWrapper {
+        height: 60vh;
+    }
+    #portfolioBanner {
+        height: 50vh;
+    }
+    #landingBanner {
+        height: 50vh;
+    }
+    #contactBanner {
+        height: 50vh;
+    }
+    #portfolioImg {
+        width: 40vw;
+        height: 25vh;
+        margin: 7vh auto;
+    }
+    #portfolioFoot {
+        display: none;
+    }
+}
